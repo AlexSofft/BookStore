@@ -1,0 +1,19 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "local": "npx playwright test",
+    "ci": "cross-env ENV=ci playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.1.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^17.2.0"
+  }
+}
